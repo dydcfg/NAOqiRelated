@@ -134,3 +134,27 @@ edit by Renkai Xiang
 	>You can subscribe the FaceReaction module to the FaceDetected method of the ALFaceRecognition module with the onFaceDetected callback.
 
 	>This will cause the face detection algorithm to run, and every time a face is detected, the onFaceDetected callback will be called.
+
+7.	The sensors, vision and audio values
+
+	NAO provides 3 kinds of sensors values as well as vision values.
+	
+	All their values are stored in `ALMemory` and it's easy to get values from `ALMemory` in Python.
+
+	**Sensors**
+	1.	FSR values - Foot Force Sensor Values
+	2.	Inertial Sensor values - Gyrometers Values/	Accelerometers Values/Torso Angle in radian
+	3.	Sonar values
+
+	**Vision**
+	1.	Retrieving images
+	2.	Video recording
+	3.	Face detection and tracking
+	4.	Vision recognition
+	5.	Landmark detection
+	
+	**Audio**
+	1.	AudioRecorder/AudioPlayer
+	2.	TextToSpeech
+	3.	SoundLocalization
+	4.	VoiceEmotionAnalysis
